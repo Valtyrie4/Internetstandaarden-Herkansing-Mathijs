@@ -1,0 +1,82 @@
+body {
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+  font-family: "Tahoma";
+  background-color: #000000;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+  justify-content: space-around;
+  border: 2px solid;
+  background: rgb(90, 90, 90);
+  width: 100%;
+  
+}
+
+h1 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  background: rgb(71, 71, 71);
+  padding: 1%;
+  color: rgb(255, 255, 255);
+  margin: 1%;
+}
+
+section {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+a {
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgb(0, 0, 0);
+  transition: 2000ms;
+  color:rgb(255, 255, 255)
+
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+ol {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-display: center;
+}
+
+@keyframes fadeIn {
+}
+
+footer {
+  background-color: rgb(95, 95, 95);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0.5%;
+  border: 2px solid black;
+  position: center;
+  bottom: -5;
+}
